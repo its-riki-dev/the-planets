@@ -1,0 +1,29 @@
+@import "tailwindcss";
+
+body, html {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    touch-action: pan-y;
+  }
+  
+
+body {
+    background-color: black;
+}
+
+@font-face {
+    font-family: 'LATO';
+    src: url('/Fonts/Lato.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: 'Bellina';
+    src: url('/Fonts/Bellina.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+  }

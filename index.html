@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="./logo.png" />
+  <title>The Planets</title>
+  <link rel="stylesheet" href="./src/style.css">
+</head>
+<body>
+  <div class="w-full h-screen overflow-hidden">
+    <div class="w-full h-screen absolute top-0 left-0 z-[2] text-white font-['LATO']">
+      <div class="absolute top-[4%] left-1/2 -translate-x-1/2 text-center font-['Bellina']">
+        <div class="heading w-full h-[4em] md:h-[8em] overflow-hidden">
+          <h1 class="h-full text-5xl md:text-9xl font-light tracking-tighter">Earth</h1>
+          <h1 class="h-full text-5xl md:text-9xl font-light tracking-tighter">Csilla</h1>
+          <h1 class="h-full text-5xl md:text-9xl font-light tracking-tighter">Mars</h1>
+          <h1 class="h-full text-5xl md:text-9xl font-light tracking-tighter">Venus</h1>
+        </div>
+        
+        <p class="text-sm font-['LATO']">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+
+        <div class="w-96 h-px bg-gradient-to-r from-transparent via-white to-transparent mt-4"></div>        
+      </div>
+    </div>
+
+    <canvas id="canvas" class="bg-black"></canvas>
+  </div>
+  
+  <script type="module" src="./src/main.js"></script>
+</body>
+</html>
