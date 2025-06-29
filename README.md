@@ -1,4 +1,4 @@
-# ⚡ Cyberpunk Landing Page
+# 🌎 The Planets
 
 An interactive planetary-themed landing page built with Three.js, TailwindCSS, and GSAP. Features rotating 3D planets, smooth scroll and swipe transitions, dynamic text animations, and a space-inspired HDRI background. Fully responsive and visually immersive, designed for a modern cosmic experience.
 
@@ -44,7 +44,7 @@ An interactive planetary-themed landing page built with Three.js, TailwindCSS, a
 ## Clone the repo
 
 ```bash
-git clone https://github.com/its-riki-dev/cyberpunk-landingPage.git
+git clone https://github.com/its-riki-dev/the-planets.git
 
 # Install dependencies
 npm install
